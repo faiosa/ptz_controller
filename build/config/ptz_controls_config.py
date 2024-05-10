@@ -1,0 +1,9 @@
+FULL_TIME_TO_TURN = 40
+MAX_DEGREE = 350
+ROTATION_SPEED = 8.75
+
+
+# PTZ Controls
+STOP = b"\xFF\x01\x00\x00\x00\x00"
+RIGHT = b"\xFF\x01\x00\x02\x3f\x00"
+LEFT = b"\xFF\x01\x00\x04\x3f\x00"
